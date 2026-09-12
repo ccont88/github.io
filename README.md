@@ -4,9 +4,9 @@ Professional portfolio showcasing hardware design, PCB development, embedded sys
 # Mi Portafolio Web
 
 Bienvenido a mi portafolio personal. En este repositorio se encuentra el codigo fuente de mi sitio web donde presento mis proyectos y habilidades.
-![Descripción de la imagen](./imag1.png)
 
-Sitio en vivo: https://tu-usuario.github.io/tu-repositorio/
+
+Sitio en vivo: https://ccont88.github.io/index.html
 
 ---
 
