@@ -33,6 +33,92 @@ body {
 }
 
 /* ==========================================
+   Estilos para la Sección de Curriculum Vitae
+   ========================================== */
+.cv-section {
+  margin-bottom: 3.5rem;
+}
+
+.cv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.75rem;
+}
+
+.cv-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.cv-card h3 {
+  font-size: 1.35rem;
+  color: var(--accent-color);
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.cv-item {
+  margin-bottom: 1.25rem;
+}
+
+.cv-item:last-child {
+  margin-bottom: 0;
+}
+
+.cv-item h4 {
+  font-size: 1.05rem;
+  color: var(--text-main);
+  margin-bottom: 0.2rem;
+}
+
+.cv-period {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--accent-color);
+  background-color: rgba(56, 189, 248, 0.08);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.cv-item p {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.cv-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cv-list li {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  margin-bottom: 0.85rem;
+  position: relative;
+  padding-left: 1.25rem;
+  line-height: 1.5;
+}
+
+.cv-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.cv-list li strong {
+  color: var(--text-main);
+}
+
+
+/* ==========================================
    Encabezado (Header con Foto de Perfil)
    ========================================== */
 header {
