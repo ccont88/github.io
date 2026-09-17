@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Portafolio Web</title>
+  <title>Portafolio - Hardware & Sistemas Embebidos</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -14,9 +14,129 @@
   </header>
 
   <main>
-    <section>
-      <h2>Proyectos</h2>
-      <p>Aquí se mostrarán mis proyectos de diseño electrónico, PCB y desarrollo web.</p>
+    <section class="projects-section">
+      <h2>Proyectos Destacados</h2>
+      <p class="section-desc">Selección de desarrollos de hardware, diseño de PCB multicapa y sistemas embebidos.</p>
+
+      <div class="projects-grid">
+
+        <!-- Proyecto 1 -->
+        <article class="project-card">
+          <h3>01. Tarjeta de Control IoT (ESP32)</h3>
+          <p class="project-desc">Diseño de PCB de 2 capas para control domótico con relevadores, interfaz Nextion y comunicación WiFi/MQTT.</p>
+          <div class="tech-tags">
+            <span>ESP32</span>
+            <span>Altium</span>
+            <span>Power Management</span>
+          </div>
+          <div class="image-gallery single-img">
+            <img src="./assets/proyecto1-3d.jpg" alt="Render 3D PCB ESP32">
+          </div>
+        </article>
+
+        <!-- Proyecto 2 -->
+        <article class="project-card">
+          <h3>02. Sistema de Gestión de Baterías (BMS LiFePO4)</h3>
+          <p class="project-desc">PCB para monitoreo de celdas, balanceo activo y protección ante sobrecorriente con controlador BQ77915.</p>
+          <div class="tech-tags">
+            <span>BMS</span>
+            <span>BQ77915</span>
+            <span>4-Layer PCB</span>
+          </div>
+          <div class="image-gallery dual-img">
+            <img src="./assets/proyecto2-top.jpg" alt="Layout PCB BMS Top View">
+            <img src="./assets/proyecto2-3d.jpg" alt="Render 3D BMS">
+          </div>
+        </article>
+
+        <!-- Proyecto 3 -->
+        <article class="project-card">
+          <h3>03. Datalogger de Alto Rendimiento (STM32H7)</h3>
+          <p class="project-desc">Placa de adquisición de datos con microcontrolador STM32H7, slot MicroSD por SDIO e interfaz Ethernet industrial.</p>
+          <div class="tech-tags">
+            <span>STM32H7</span>
+            <span>Ethernet</span>
+            <span>High-Speed</span>
+          </div>
+          <div class="image-gallery dual-img">
+            <img src="./assets/proyecto3-layout.jpg" alt="Routing STM32H7">
+            <img src="./assets/proyecto3-3d.jpg" alt="Render 3D Datalogger">
+          </div>
+        </article>
+
+        <!-- Proyecto 4 -->
+        <article class="project-card">
+          <h3>04. Módulo de Alimentación USB-C Power Delivery</h3>
+          <p class="project-desc">Fuente conmutada Buck-Boost de alta eficiencia integrada con negociación de perfiles USB-PD hasta 20V/5A.</p>
+          <div class="tech-tags">
+            <span>USB-PD</span>
+            <span>TPS61288</span>
+            <span>EMC Optimization</span>
+          </div>
+          <div class="image-gallery single-img">
+            <img src="./assets/proyecto4-3d.jpg" alt="Render 3D USB-C PD">
+          </div>
+        </article>
+
+        <!-- Proyecto 5 -->
+        <article class="project-card">
+          <h3>05. Rastreador GNSS / GPS de Bajo Consumo</h3>
+          <p class="project-desc">Hardware compacto ultra-low power con módulo GNSS, acelerómetro I2C e integración con batería Lipo.</p>
+          <div class="tech-tags">
+            <span>GNSS</span>
+            <span>Ultra-Low Power</span>
+            <span>KiCAD</span>
+          </div>
+          <div class="image-gallery dual-img">
+            <img src="./assets/proyecto5-top.jpg" alt="Layout Top GPS">
+            <img src="./assets/proyecto5-3d.jpg" alt="Render 3D GPS Tracker">
+          </div>
+        </article>
+
+        <!-- Proyecto 6 -->
+        <article class="project-card">
+          <h3>06. Placa de Procesamiento FPGA</h3>
+          <p class="project-desc">Diseño multicapa (6 capas) optimizado para integridad de señal y distribución de potencia en alta frecuencia.</p>
+          <div class="tech-tags">
+            <span>FPGA</span>
+            <span>Signal Integrity</span>
+            <span>6-Layer Stackup</span>
+          </div>
+          <div class="image-gallery single-img">
+            <img src="./assets/proyecto6-layout.jpg" alt="Layout 6 capas FPGA">
+          </div>
+        </article>
+
+        <!-- Proyecto 7 -->
+        <article class="project-card">
+          <h3>07. Driver Monofásico para Motores BLDC</h3>
+          <p class="project-desc">Etapa de potencia con puentes H MOSFET y aislamiento óptico para control vectorial de motores sin escobillas.</p>
+          <div class="tech-tags">
+            <span>Power Electronics</span>
+            <span>BLDC</span>
+            <span>Gate Drivers</span>
+          </div>
+          <div class="image-gallery dual-img">
+            <img src="./assets/proyecto7-bottom.jpg" alt="Layout Bottom BLDC">
+            <img src="./assets/proyecto7-3d.jpg" alt="Render 3D Driver BLDC">
+          </div>
+        </article>
+
+        <!-- Proyecto 8 -->
+        <article class="project-card">
+          <h3>08. Gateway de Sensores RS485 / Modbus</h3>
+          <p class="project-desc">Interfaz industrial con protección contra sobretensiones (TVS Diodes), aislamiento galvánico y transceiver RS485.</p>
+          <div class="tech-tags">
+            <span>RS485</span>
+            <span>Industrial IoT</span>
+            <span>EAGLE</span>
+          </div>
+          <div class="image-gallery single-img">
+            <img src="./assets/proyecto8-3d.jpg" alt="Render 3D RS485 Gateway">
+          </div>
+        </article>
+
+      </div>
     </section>
   </main>
 
