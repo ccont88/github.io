@@ -9,17 +9,49 @@
 <body>
 
   <header>
-    <div class="header-container">
-      <img src="./assets/foto-carlos.jpg" alt="Fotografía de Carlos" class="profile-img">
-      <div class="header-text">
-        <h1>Hola, soy Carlos</h1>
-        <p>Ingeniero en Desarrollo de Hardware y Sistemas Embebidos</p>
-      </div>
-    </div>
+    <h1>Hola, soy Carlos</h1>
+    <p>Ingeniero en Desarrollo de Hardware y Sistemas Embebidos</p>
   </header>
-  
 
   <main>
+
+    <!-- SECCIÓN DE CURRICULUM VITAE / EXPERIENCIA -->
+    <section class="cv-section">
+      <h2>Curriculum Vitae</h2>
+      <p class="section-desc">Experiencia profesional en investigación, desarrollo y manufactura de electrónica automotriz e industrial.</p>
+
+      <div class="cv-grid">
+        <!-- Tarjeta de Experiencia Laboral -->
+        <article class="cv-card">
+          <h3>Experiencia Laboral</h3>
+          
+          <div class="cv-item">
+            <h4>Ingeniero de I+D / Test Benches (Automotriz)</h4>
+            <span class="cv-period">Manufactura, Testing & R&D</span>
+            <p>Desarrollo y mantenimiento de bancos de prueba (test benches) para validación de módulos automotrices. Pruebas funcionales, diagnóstico de fallas y soporte directo a líneas de manufactura.</p>
+          </div>
+
+          <div class="cv-item">
+            <h4>Diseño de Hardware y Escalamiento de Producción</h4>
+            <span class="cv-period">Diseño Electrónico & Manufactura</span>
+            <p>Diseño y despliegue de placas de circuito impreso (PCB) desde la etapa de prototipo hasta lotes de fabricación en serie (decenas a cientos de unidades) para productos funcionales finales.</p>
+          </div>
+        </article>
+
+        <!-- Tarjeta de Competencias Técnicas -->
+        <article class="cv-card">
+          <h3>Especialización y Competencias</h3>
+          <ul class="cv-list">
+            <li><strong>Optimización de BOM:</strong> Reducción de costos en la lista de materiales mediante la evaluación de alternativas y análisis de ciclo de vida del componente.</li>
+            <li><strong>Selección Directa de Fabricante:</strong> Calificación y selección de componentes directamente desde catálogo de fabricante para garantizar stock, calidad y cumplimiento normativo.</li>
+            <li><strong>Diseño para Manufactura (DFM/DFA):</strong> Estandarización de footprints, encapsulados y paneles para facilitar el ensamble SMT/THT a escala industrial.</li>
+            <li><strong>Testing & Validación:</strong> Diseño de fixtures de prueba, instrumentación de prueba funcional (FCT) y pruebas de integridad de señal/potencia.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECCIÓN DE PROYECTOS -->
     <section class="projects-section">
       <h2>Proyectos Destacados</h2>
       <p class="section-desc">Selección de desarrollos de hardware, diseño de PCB multicapa y sistemas embebidos.</p>
@@ -144,6 +176,7 @@
 
       </div>
     </section>
+
   </main>
 
   <footer>
